@@ -1,0 +1,47 @@
+1.git clone https://github.com/Drakkar-Software/OctoBot.git
+
+2.cd OctoBot
+
+3.python -m venv venv
+
+4.source venv/bin/activate
+
+5.pip install -r requirements.txt
+
+6.python -m octobot -----Run octobot module default
+
+//ForceFully create the folder 
+
+7.New-Item -ItemType Directory -Path "$HOME\.octobot\user_data\tentacles\Trading\Exchange\Hotcoin" -Force   
+8.Goes to that location in powershell
+Set-Location "$HOME\.octobot\user_data\tentacles\Trading\Exchange\Hotcoin"
+
+9. code hotcoin_exchange.py
+
+10.python -m octobot --(venv) PS C:\Users\dell> cd "C:\Users\dell\Desktop\Client_Project\OctoBot\octobot"
+
+
+11.(venv) PS C:\Users\dell\Desktop\Client_Project\OctoBot> python start.py   -->start the octobot
+
+
+
+12.(venv) PS C:\Users\dell\Desktop\Client_Project\OctoBot> python start.py
+
+
+
+
+-------venv path-----most used commands 
+my current path C:\Users\dell\Desktop\Client_Project> Destination path i wanna go (venv) PS C:\Users\dell\Desktop\Client_Project\OctoBot>   throgh powershell cmd
+
+
+
+Steps:-
+ step 1 --->cd .\OctoBot\
+ step 2 --->.\venv\Scripts\Activate
+ step 3 --->python start.py
+
+
+Access Key: 9bf346f83ad9433a8a49f7d376e3b1cf
+Secret Key: F6BFB159D417D6285B881734A1193863
+
+
